@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- <link rel="shortcut icon" type="x-icon" href="icons8-appointment-48.png"> -->
+    <link rel="shortcut icon" href="icons8-appointment-48.png" type="png">
+    <title>formactions</title> 
+    <link rel="stylesheet" href="bookappointment.css">
+    
+</head>
+<body>  
+    
+<div class="container">
+   
+       
+        <div class="section1" > 
+            <img  src="https://images.pexels.com/photos/2528695/pexels-photo-2528695.jpeg?auto=compress&cs=tinysrgb&w=600" alt="pic">
+
+        </div> 
+        <div class="section2">
+            <h1>BOOK YOUR APPOINTMENT</h1>
+        
+         <form>  
+            <div class="servs"> 
+                <div class="radio1">
+                    <input type="radio" id="incall" name="incl" value="cl">  
+                    <label for="incall">IN SHOP</label> 
+                </div>
+                <div class="radio2">
+                    <input type="radio" id="incal" name="incl" value="hme"> 
+                    <label for="incall">IN HOME</label>   
+                </div>
+            </div>  
+        
+        <div class="Customer"> 
+            <label for="NAME" class="name">  Customer Name </label>
+            <input type="text" id="NAME" NAME="CUSTMERE" required class="line"><br>
+
+        </div> 
+        <div class="connect">
+             <label for="number">Mobile Number:</label> 
+             <input type="tel" id="number" name="number" pattern="[0-9]{10}" required class="line"> <br>
+             <label for="mail">Email Address:</label> 
+             <input type="email" id="mail" name="mail" required class="line"><br>
+        </div>  
+        <div class="pick">
+            <div class="date">
+                <label for="date" class="book"> Book Date</label> <br>
+                <input TYPE="date" ID="date" name="date">
+            </div>
+            <div class="time">
+                <label for="time">Set Time</label><br> 
+                <input type="time" id="time" name="time">
+            </div>
+        </div> 
+        <div class="button">
+            <input type="submit" value="GET YOUR APPOINTMENT">
+        </div>
+
+
+        </form>
+        
+    </div>
+
+</div>   
+    
+</body>
+</html>

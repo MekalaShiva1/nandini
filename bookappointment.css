@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    column-gap: 100px;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:#b6c3b8;
+}
+
+
+.section1 img{
+    height: 400px;
+    width: 400px;
+}
+.section2 h1{
+    padding-bottom: 50px;
+}
+.servs .radio1 {
+    border: 1px solid;
+    padding: 4px 20px;
+    border-radius: 5px;
+    
+}
+.servs .radio2 {
+    border: 1px solid;
+    padding: 4px 20px;
+    border-radius: 5px;
+}
+.Customer{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.Customer input{
+    width: 59%;
+    padding: 1px;
+
+}
+.container .connect{
+    display: flex;
+    flex-direction: column;
+}
+.connect input{
+    width: 59%;
+    
+}
+.container .servs{
+    width: 300px; 
+    display: flex; 
+    gap: 12px;  
+
+}   
+.pick{
+    display: flex;
+    column-gap: 20px;
+}
+
+input {
+    margin-top: 9px; 
+    padding: 1px;
+    border-radius: 4px;
+    background-color:#b6c3b8;
+
+  }
+  .date input{
+    width:100px;
+    padding: 1.2px 15px;
+    
+  }
+  .time input{
+    width: 100px;
+    padding: 0px 4px;
+  }
+  .button input{
+    background-color: rgb(65, 65, 254);
+    width: 60%;
+    color: aliceblue;
+    height: 25px;
+    margin-top: 15px;
+  }
+
+  @media screen and (max-width:767px){
+    .container {
+        display: flex;
+        column-gap:50px;
+        height: 100%;
+        background-color:#b6c3b8;
+    }
+    
+    
+    .section1 img{
+        display: none;
+    }
+    
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .Customer input{
+        width: 85%;
+        padding: 1px;
+    
+    }
+    .connect input{
+        width: 85%;
+        
+    }
+  .button input{
+    width: 85%;
+  }
+
+  }
+
+
+
+
+
